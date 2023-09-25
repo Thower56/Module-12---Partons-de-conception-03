@@ -67,8 +67,8 @@
             this.tsmiFichier});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(908, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(824, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,13 +77,13 @@
             this.tsmiFichier.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ouvrirToolStripMenuItem});
             this.tsmiFichier.Name = "tsmiFichier";
-            this.tsmiFichier.Size = new System.Drawing.Size(54, 20);
+            this.tsmiFichier.Size = new System.Drawing.Size(66, 24);
             this.tsmiFichier.Text = "Fichier";
             // 
             // ouvrirToolStripMenuItem
             // 
             this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
-            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.ouvrirToolStripMenuItem.Text = "Ouvrir";
             this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
             // 
@@ -92,7 +92,8 @@
             this.scPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.scPrincipal.Location = new System.Drawing.Point(0, 24);
+            this.scPrincipal.Location = new System.Drawing.Point(0, 30);
+            this.scPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.scPrincipal.Name = "scPrincipal";
             // 
             // scPrincipal.Panel1
@@ -102,8 +103,9 @@
             // scPrincipal.Panel2
             // 
             this.scPrincipal.Panel2.Controls.Add(this.pCanvas);
-            this.scPrincipal.Size = new System.Drawing.Size(904, 372);
-            this.scPrincipal.SplitterDistance = 287;
+            this.scPrincipal.Size = new System.Drawing.Size(818, 415);
+            this.scPrincipal.SplitterDistance = 259;
+            this.scPrincipal.SplitterWidth = 5;
             this.scPrincipal.TabIndex = 1;
             // 
             // scSuiteTraitements
@@ -111,7 +113,8 @@
             this.scSuiteTraitements.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.scSuiteTraitements.Location = new System.Drawing.Point(3, 3);
+            this.scSuiteTraitements.Location = new System.Drawing.Point(4, 4);
+            this.scSuiteTraitements.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.scSuiteTraitements.Name = "scSuiteTraitements";
             this.scSuiteTraitements.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -127,25 +130,28 @@
             // 
             this.scSuiteTraitements.Panel2.Controls.Add(this.pgProprieteTraitementSelectionne);
             this.scSuiteTraitements.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.scSuiteTraitements_Panel2_Paint);
-            this.scSuiteTraitements.Size = new System.Drawing.Size(281, 365);
-            this.scSuiteTraitements.SplitterDistance = 160;
+            this.scSuiteTraitements.Size = new System.Drawing.Size(251, 406);
+            this.scSuiteTraitements.SplitterDistance = 177;
+            this.scSuiteTraitements.SplitterWidth = 5;
             this.scSuiteTraitements.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.bAppliquerSuiteTraitement);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 127);
+            this.panel2.Location = new System.Drawing.Point(0, 136);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(281, 33);
+            this.panel2.Size = new System.Drawing.Size(251, 41);
             this.panel2.TabIndex = 2;
             // 
             // bAppliquerSuiteTraitement
             // 
             this.bAppliquerSuiteTraitement.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bAppliquerSuiteTraitement.Location = new System.Drawing.Point(0, 0);
+            this.bAppliquerSuiteTraitement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bAppliquerSuiteTraitement.Name = "bAppliquerSuiteTraitement";
-            this.bAppliquerSuiteTraitement.Size = new System.Drawing.Size(281, 33);
+            this.bAppliquerSuiteTraitement.Size = new System.Drawing.Size(251, 41);
             this.bAppliquerSuiteTraitement.TabIndex = 0;
             this.bAppliquerSuiteTraitement.Text = "Appliquer";
             this.bAppliquerSuiteTraitement.UseVisualStyleBackColor = true;
@@ -155,9 +161,11 @@
             // 
             this.lbSuiteTraitementsAAppliquer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbSuiteTraitementsAAppliquer.FormattingEnabled = true;
-            this.lbSuiteTraitementsAAppliquer.Location = new System.Drawing.Point(0, 61);
+            this.lbSuiteTraitementsAAppliquer.ItemHeight = 16;
+            this.lbSuiteTraitementsAAppliquer.Location = new System.Drawing.Point(0, 75);
+            this.lbSuiteTraitementsAAppliquer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbSuiteTraitementsAAppliquer.Name = "lbSuiteTraitementsAAppliquer";
-            this.lbSuiteTraitementsAAppliquer.Size = new System.Drawing.Size(281, 99);
+            this.lbSuiteTraitementsAAppliquer.Size = new System.Drawing.Size(251, 102);
             this.lbSuiteTraitementsAAppliquer.TabIndex = 1;
             this.lbSuiteTraitementsAAppliquer.SelectedIndexChanged += new System.EventHandler(this.lbSuiteTraitementsAAppliquer_SelectedIndexChanged);
             // 
@@ -170,17 +178,19 @@
             this.pControlSuiteTrai.Controls.Add(this.cbTraitementAAjouter);
             this.pControlSuiteTrai.Dock = System.Windows.Forms.DockStyle.Top;
             this.pControlSuiteTrai.Location = new System.Drawing.Point(0, 0);
+            this.pControlSuiteTrai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pControlSuiteTrai.Name = "pControlSuiteTrai";
-            this.pControlSuiteTrai.Size = new System.Drawing.Size(281, 61);
+            this.pControlSuiteTrai.Size = new System.Drawing.Size(251, 75);
             this.pControlSuiteTrai.TabIndex = 0;
             this.pControlSuiteTrai.Paint += new System.Windows.Forms.PaintEventHandler(this.pControlSuiteTrai_Paint);
             // 
             // bSupprimerTraitement
             // 
             this.bSupprimerTraitement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bSupprimerTraitement.Location = new System.Drawing.Point(251, 30);
+            this.bSupprimerTraitement.Location = new System.Drawing.Point(211, 37);
+            this.bSupprimerTraitement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bSupprimerTraitement.Name = "bSupprimerTraitement";
-            this.bSupprimerTraitement.Size = new System.Drawing.Size(26, 23);
+            this.bSupprimerTraitement.Size = new System.Drawing.Size(35, 28);
             this.bSupprimerTraitement.TabIndex = 4;
             this.bSupprimerTraitement.Text = "-";
             this.bSupprimerTraitement.UseVisualStyleBackColor = true;
@@ -189,9 +199,10 @@
             // bAjouterTraitement
             // 
             this.bAjouterTraitement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bAjouterTraitement.Location = new System.Drawing.Point(218, 30);
+            this.bAjouterTraitement.Location = new System.Drawing.Point(167, 37);
+            this.bAjouterTraitement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bAjouterTraitement.Name = "bAjouterTraitement";
-            this.bAjouterTraitement.Size = new System.Drawing.Size(28, 23);
+            this.bAjouterTraitement.Size = new System.Drawing.Size(37, 28);
             this.bAjouterTraitement.TabIndex = 3;
             this.bAjouterTraitement.Text = "+";
             this.bAjouterTraitement.UseVisualStyleBackColor = true;
@@ -199,9 +210,10 @@
             // 
             // bSuiteTraitementDeplacerBas
             // 
-            this.bSuiteTraitementDeplacerBas.Location = new System.Drawing.Point(42, 30);
+            this.bSuiteTraitementDeplacerBas.Location = new System.Drawing.Point(56, 37);
+            this.bSuiteTraitementDeplacerBas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bSuiteTraitementDeplacerBas.Name = "bSuiteTraitementDeplacerBas";
-            this.bSuiteTraitementDeplacerBas.Size = new System.Drawing.Size(27, 23);
+            this.bSuiteTraitementDeplacerBas.Size = new System.Drawing.Size(36, 28);
             this.bSuiteTraitementDeplacerBas.TabIndex = 2;
             this.bSuiteTraitementDeplacerBas.Text = "↓";
             this.bSuiteTraitementDeplacerBas.UseVisualStyleBackColor = true;
@@ -209,9 +221,10 @@
             // 
             // bSuiteTraitementDeplacerHaut
             // 
-            this.bSuiteTraitementDeplacerHaut.Location = new System.Drawing.Point(5, 30);
+            this.bSuiteTraitementDeplacerHaut.Location = new System.Drawing.Point(7, 37);
+            this.bSuiteTraitementDeplacerHaut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bSuiteTraitementDeplacerHaut.Name = "bSuiteTraitementDeplacerHaut";
-            this.bSuiteTraitementDeplacerHaut.Size = new System.Drawing.Size(27, 23);
+            this.bSuiteTraitementDeplacerHaut.Size = new System.Drawing.Size(36, 28);
             this.bSuiteTraitementDeplacerHaut.TabIndex = 1;
             this.bSuiteTraitementDeplacerHaut.Text = "↑";
             this.bSuiteTraitementDeplacerHaut.UseVisualStyleBackColor = true;
@@ -222,17 +235,19 @@
             this.cbTraitementAAjouter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbTraitementAAjouter.FormattingEnabled = true;
-            this.cbTraitementAAjouter.Location = new System.Drawing.Point(3, 3);
+            this.cbTraitementAAjouter.Location = new System.Drawing.Point(4, 4);
+            this.cbTraitementAAjouter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbTraitementAAjouter.Name = "cbTraitementAAjouter";
-            this.cbTraitementAAjouter.Size = new System.Drawing.Size(274, 21);
+            this.cbTraitementAAjouter.Size = new System.Drawing.Size(240, 24);
             this.cbTraitementAAjouter.TabIndex = 0;
             // 
             // pgProprieteTraitementSelectionne
             // 
             this.pgProprieteTraitementSelectionne.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pgProprieteTraitementSelectionne.Location = new System.Drawing.Point(0, 0);
+            this.pgProprieteTraitementSelectionne.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pgProprieteTraitementSelectionne.Name = "pgProprieteTraitementSelectionne";
-            this.pgProprieteTraitementSelectionne.Size = new System.Drawing.Size(281, 201);
+            this.pgProprieteTraitementSelectionne.Size = new System.Drawing.Size(251, 224);
             this.pgProprieteTraitementSelectionne.TabIndex = 3;
             this.pgProprieteTraitementSelectionne.Click += new System.EventHandler(this.pgProprieteTraitementSelectionne_Click);
             // 
@@ -243,27 +258,31 @@
             this.pCanvas.Controls.Add(this.pbImage);
             this.pCanvas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pCanvas.Location = new System.Drawing.Point(0, 0);
+            this.pCanvas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pCanvas.Name = "pCanvas";
-            this.pCanvas.Size = new System.Drawing.Size(613, 372);
+            this.pCanvas.Size = new System.Drawing.Size(554, 415);
             this.pCanvas.TabIndex = 0;
             // 
             // pbImage
             // 
             this.pbImage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbImage.Location = new System.Drawing.Point(0, 0);
+            this.pbImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbImage.Name = "pbImage";
-            this.pbImage.Size = new System.Drawing.Size(613, 372);
+            this.pbImage.Size = new System.Drawing.Size(554, 415);
             this.pbImage.TabIndex = 0;
             this.pbImage.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 404);
+            this.ClientSize = new System.Drawing.Size(824, 454);
             this.Controls.Add(this.scPrincipal);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(746, 441);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
