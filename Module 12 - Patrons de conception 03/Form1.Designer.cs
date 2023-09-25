@@ -81,8 +81,9 @@
             // ouvrirToolStripMenuItem
             // 
             this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
-            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ouvrirToolStripMenuItem.Text = "Ouvrir";
+            this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
             // 
             // scPrincipal
             // 
@@ -179,6 +180,7 @@
             this.bSupprimerTraitement.TabIndex = 4;
             this.bSupprimerTraitement.Text = "-";
             this.bSupprimerTraitement.UseVisualStyleBackColor = true;
+            this.bSupprimerTraitement.Click += new System.EventHandler(this.bSupprimerTraitement_Click);
             // 
             // bAjouterTraitement
             // 
@@ -189,6 +191,7 @@
             this.bAjouterTraitement.TabIndex = 3;
             this.bAjouterTraitement.Text = "+";
             this.bAjouterTraitement.UseVisualStyleBackColor = true;
+            this.bAjouterTraitement.Click += new System.EventHandler(this.bAjouterTraitement_Click);
             // 
             // bSuiteTraitementDeplacerBas
             // 
@@ -198,6 +201,7 @@
             this.bSuiteTraitementDeplacerBas.TabIndex = 2;
             this.bSuiteTraitementDeplacerBas.Text = "↓";
             this.bSuiteTraitementDeplacerBas.UseVisualStyleBackColor = true;
+            this.bSuiteTraitementDeplacerBas.Click += new System.EventHandler(this.bSuiteTraitementDeplacerBas_Click);
             // 
             // bSuiteTraitementDeplacerHaut
             // 
@@ -207,6 +211,7 @@
             this.bSuiteTraitementDeplacerHaut.TabIndex = 1;
             this.bSuiteTraitementDeplacerHaut.Text = "↑";
             this.bSuiteTraitementDeplacerHaut.UseVisualStyleBackColor = true;
+            this.bSuiteTraitementDeplacerHaut.Click += new System.EventHandler(this.bSuiteTraitementDeplacerHaut_Click);
             // 
             // cbTraitementAAjouter
             // 
