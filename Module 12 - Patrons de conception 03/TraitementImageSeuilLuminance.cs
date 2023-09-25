@@ -11,7 +11,8 @@ namespace Module_12___Patrons_de_conception_03
     public class TraitementImageSeuilLuminance : ITraitementImage
     {
         public int Seuil { get; set; }
-        public ITraitementImage Suivant { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        [Browsable(false)]
+        public ITraitementImage Suivant { get; set; }
 
         public object Clone()
         {
@@ -36,6 +37,11 @@ namespace Module_12___Patrons_de_conception_03
             }
 
             this.Suivant?.Traiter(p_image);
+        }
+
+        public override string ToString()
+        {
+            return "Filtre Seuil Luminance";
         }
     }
 }

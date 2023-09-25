@@ -10,16 +10,19 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre Image Masque")]
     public class TraitementImageMasque : ITraitementImage
     {
-        public int Largeur 
+        private int m_largeur;
+        public int Largeur
         {
-            get { return Largeur; }
+            get { return m_largeur; }
             set
             {
-                Largeur = value % 2 == 0 ? value + 1 : value;
-            } 
+                m_largeur = value % 2 == 0 ? value + 1 : value;
+            }
         }
 
         public Func<byte[], byte> Transformation { get; set; }
+
+        [Browsable(false)]
         public ITraitementImage Suivant { get; set; }
 
         public object Clone()
@@ -58,6 +61,10 @@ namespace Module_12___Patrons_de_conception_03
             }
 
             Array.Copy(res, raw, raw.Length);
+        }
+        public override string ToString()
+        {
+            return "Filtre Image Masque";
         }
     }
 }

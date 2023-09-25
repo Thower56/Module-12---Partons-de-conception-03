@@ -8,3 +8,13 @@ C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Module 12 - Patrons de concep
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.csproj.CoreCompileInputs.cache
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.exe
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.pdb
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\bin\Debug\Module 12 - Patrons de conception 03.exe.config
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\bin\Debug\Module 12 - Patrons de conception 03.exe
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\bin\Debug\Module 12 - Patrons de conception 03.pdb
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.csproj.AssemblyReference.cache
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module_12___Patrons_de_conception_03.Form1.resources
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module_12___Patrons_de_conception_03.Properties.Resources.resources
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.csproj.GenerateResource.cache
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.csproj.CoreCompileInputs.cache
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.exe
+C:\Session3\Algo\Module-12---Partons-de-conception-03\Module 12 - Patrons de conception 03\obj\Debug\Module 12 - Patrons de conception 03.pdb

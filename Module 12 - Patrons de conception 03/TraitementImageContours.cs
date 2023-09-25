@@ -10,6 +10,10 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre passe-haut")]
     public class TraitementImageContours : TraitementImageMasque
     {
+        public TraitementImageContours()
+        {
+            Transformation = TraiterDonnees;
+        }
         private static byte TraiterDonnees(byte[] p_donnees)
         {
             int coeficientCentrale = p_donnees.Length - 1;

@@ -10,6 +10,10 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre Bruit")]
     public class TraitementImageDiminuerBruit : TraitementImageMasque
     {
+        public TraitementImageDiminuerBruit()
+        {
+            Transformation = TraiterDonnees;
+        }
         private static byte TraiterDonnees(byte[] p_donnees)
         {
             Array.Sort(p_donnees);

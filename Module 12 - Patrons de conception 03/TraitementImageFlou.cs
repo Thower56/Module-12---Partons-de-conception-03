@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -10,6 +11,10 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre Flou")]
     public class TraitementImageFlou : TraitementImageMasque
     {
+        public TraitementImageFlou()
+        {
+            Transformation = TraiterDonnees;
+        }
         private static byte TraiterDonnees(byte[] p_donnees)
         {
             int somme = 0;
