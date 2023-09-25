@@ -10,7 +10,7 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre Image Masque")]
     public class TraitementImageMasque : ITraitementImage
     {
-        private int m_largeur;
+        private int m_largeur = 3;
         public int Largeur
         {
             get { return m_largeur; }
@@ -61,6 +61,7 @@ namespace Module_12___Patrons_de_conception_03
             }
 
             Array.Copy(res, raw, raw.Length);
+            this.Suivant?.Traiter(p_image);
         }
         public override string ToString()
         {

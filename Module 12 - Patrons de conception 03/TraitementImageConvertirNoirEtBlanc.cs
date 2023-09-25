@@ -10,6 +10,7 @@ namespace Module_12___Patrons_de_conception_03
     [Description("Filtre Noir et Blanc")]
     public class TraitementImageConvertirNoirEtBlanc : ITraitementImage
     {
+        [Browsable(false)]
         public ITraitementImage Suivant { get; set; }
 
         public object Clone()
@@ -28,6 +29,7 @@ namespace Module_12___Patrons_de_conception_03
                 raw[l3 + 1] = luminance;
                 raw[l3 + 2] = luminance;
             }
+            this.Suivant?.Traiter(p_image);
         }
         public override string ToString()
         {
